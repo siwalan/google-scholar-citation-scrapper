@@ -9,6 +9,7 @@ Sampai sekarang (Des 2019), Google Scholar tidak menyediakan API sehingga proses
 
 ##### Cara Penggunaan
 
+NOTE: Anda dianjurkan menggunakan versi .IPYNB (Jupyter Lab), versi .py belum pernah dicoba dan disediakan sebagai as-is saja. 
 1. Ambil Google Scholar ID anda dari Profile Google Scholar anda
 
 Contoh:
