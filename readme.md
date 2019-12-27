@@ -21,7 +21,7 @@ NOTE: Anda dianjurkan menggunakan versi .IPYNB (Jupyter Lab), versi .py belum pe
 
 Contoh: Dalam link ini, yang merupakan Google Scholar ID adalah **qc6CJjYAAAAJ**
 > https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en
-2. Masukan Google Scholar ID anda dalam suatu * *file* * CSV (dalam repo ini, *file* nya memiliki nama dosen.csv, pastikan ada dua kolom dalam * *file* * tersebut. Nama dan Scholar-ID)
+2. Masukan Google Scholar ID anda dalam suatu *file* CSV (dalam repo ini, *file* nya memiliki nama dosen.csv, pastikan ada dua kolom dalam *file* tersebut. Nama dan Scholar-ID)
 3. Jalankan script
 4. Setelah script selesai, maka data sitasi akan diexport ke suatu *file* .xlsx
 
