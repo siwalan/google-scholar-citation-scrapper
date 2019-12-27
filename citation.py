@@ -85,7 +85,7 @@ def is_there_more(r_soup, current = 0, scholar_id ="s7Qdk00AAAAJ"):
     return False
 
 def get_citation_data_from_publications(publications):
-    columns = ['Publikasi','Data_Penulis','Data_Jurnal','Link', 'Sitasi_2019','Sitasi_2018','Sitasi_2017','Sitasi_2016','Terproses']
+    columns = ['Publication','Writer_Data','Journal_Data','Link', 'Citation_2019','Citation_2018','Citation_2017','Citation_2016','Done']
     dataframe = pd.DataFrame(columns= columns)
     for pub in publications:
         # Get the Citation Link
