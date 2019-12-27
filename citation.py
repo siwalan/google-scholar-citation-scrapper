@@ -104,9 +104,9 @@ def get_citation_data_from_publications(publications):
                 journal_name = text
             iterator_i = 1
         input_panda = {
-            'Publikasi': Judul,
-            'Data_Penulis': author,
-            'Data_Jurnal': journal_name,
+            'Publication': Judul,
+            'Writer_Data': author,
+            'Journal_Data': journal_name,
             'Link': link
         }
         dataframe = dataframe.append(input_panda, ignore_index=True)
@@ -142,7 +142,6 @@ scholars= pd.read_csv("dosen.csv", delimiter=',') # Format File - Nama Dosen dan
 
 for index, row in scholars.iterrows():
     scholar_id = row['Scholar-id']
-    print(row['Nama'])
     citations = citations.append(get_citation_data_from_publications(scholar_get_publications(0,scholar_id)), ignore_index = True)
 
 
@@ -156,7 +155,7 @@ citations = citations.append(get_citation_data_from_publications(scholar_get_pub
 
 
 for index, row in citations.iterrows():
-    if (row['Terproses'] != True):
+    if (row['Done'] != True):
         print(index)
         row['Citation_2016'] = 0
         row['Citation_2017'] = 0
