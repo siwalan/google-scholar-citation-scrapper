@@ -1,7 +1,13 @@
-# Scrapper Sitasi Google Scholar
-## Google Scholar Citation Scrapper
+# Google Scholar Citation Scrapper
 
-### IND
+This is a simple scrapper for Google Scholar Data, you can input a Google Scholar ID and it will return all the publications related to the said ID and citation data for the last 3 years. You can easily modify it to get data from only the last year, last five years, or all years the publication has been cited.
+
+The program works by inputing a list of Google Scholar ID on the file called dosen.csv (you can change the file name) and running all the ipynb cell. The ipynb will create a .xlsx file as the result containing all the publication from the said Google Scholar ID and the citations data for the last 3 years.
+
+Please note that the code has been created using JupyterLab and the .py script version has not been tested. 
+
+# Scrapper Sitasi Google Scholar
+
 ##### Latar Belakang 
 
 Borag Akreditasi BAN-PT yang baru (AIPT 4.0) meminta bagi setiap Program Studi untuk mencantumkan **outcome** dari hasil penelitian sivitas akademika. Mendata/mencantumkan jurnal yang dihasilkan saja sudah tidak cukup, tetapi dampak dari jurnal dari jurnal tersebut perlu dilaporkan. Dampak dari jurnal tersebut diukur dari jumlah sitasi yang dimiliki jurnal tersebut. Sebagian besar Universitas tidak memiliki data ini karena untuk mendapatkan jumlah sitasi, perlu dilakukan proses *cross-reference* antar jurnal dalam jumlah besar. Untuk melakukan hal tersebut bukanlah suatu hal yang mudah, sehingga jalan yang masih memungkinkan adalah mengambil data sitasi dari *provider* data yang sudah ada seperti SINTA, Scopus, WOS, dan Google Scholar. Dalam Google Scholar, ada data total sitasi suatu jurnal dan data sitasi per tahun jurnal tersebut.
